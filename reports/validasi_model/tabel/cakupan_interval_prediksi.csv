@@ -1,0 +1,5 @@
+"model","model_label","nominal_coverage","empirical_coverage","mean_interval_width","median_interval_width"
+"linear_log","Log-linear",0.8,0.870967741935484,14996224584.6196,12568434898.1167
+"linear_log","Log-linear",0.95,0.973118279569892,29594452464.7649,24803306128.8168
+"random_forest_log","Random Forest log",0.8,0.838709677419355,15299392551.1484,13446691752.2623
+"random_forest_log","Random Forest log",0.95,0.962365591397849,33589874355.0065,29522262726.3779
