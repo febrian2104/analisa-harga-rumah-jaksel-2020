@@ -1,0 +1,14 @@
+"metrik","nilai"
+"jumlah_observasi",931
+"jumlah_parameter_termasuk_intercept",6
+"r_squared_log",0.811265093061798
+"adjusted_r_squared_log",0.810244904375646
+"rmse_residual_log",0.400294677090319
+"maksimum_vif",3.91366193314131
+"breusch_pagan_statistic",18.8572842642776
+"breusch_pagan_df",5
+"breusch_pagan_p_value",0.00204339223879631
+"ambang_cooks_distance_4_per_n",0.00429645542427497
+"jumlah_observasi_di_atas_ambang_cooks",59
+"maksimum_cooks_distance",0.0606971864869075
+"smearing_factor_log_linear",1.08619052231532
