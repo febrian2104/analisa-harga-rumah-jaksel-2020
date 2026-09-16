@@ -1,0 +1,17 @@
+"dataset","variabel","kategori","jumlah","persentase"
+"harga_rumah_jaksel","garasi","ada",714,76.69
+"harga_rumah_jaksel","garasi","tidak_ada",217,23.31
+"harga_rumah_jaksel","kota","Jakarta Selatan",931,100
+"data_rumah","garasi","ada",877,87
+"data_rumah","garasi","tidak_ada",131,13
+"data_rumah","jumlah_garasi","0",131,13
+"data_rumah","jumlah_garasi","1",288,28.57
+"data_rumah","jumlah_garasi","10",6,0.6
+"data_rumah","jumlah_garasi","2",360,35.71
+"data_rumah","jumlah_garasi","3",100,9.92
+"data_rumah","jumlah_garasi","4",83,8.23
+"data_rumah","jumlah_garasi","5",18,1.79
+"data_rumah","jumlah_garasi","6",14,1.39
+"data_rumah","jumlah_garasi","7",3,0.3
+"data_rumah","jumlah_garasi","8",2,0.2
+"data_rumah","jumlah_garasi","9",3,0.3
