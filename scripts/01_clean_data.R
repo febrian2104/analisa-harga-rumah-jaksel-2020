@@ -51,6 +51,10 @@ read_xlsx_first_sheet <- function(path) {
       "--outdir", shQuote(temp_dir),
       shQuote(normalizePath(path, mustWork = TRUE))
     ),
+    # R pada Linux menambahkan direktori library miliknya ke LD_LIBRARY_PATH.
+    # Nilai tersebut membuat LibreOffice gagal menemukan library internalnya,
+    # sehingga environment ini dikosongkan khusus untuk proses LibreOffice.
+    env = "LD_LIBRARY_PATH=",
     stdout = TRUE,
     stderr = TRUE
   )
@@ -390,4 +394,3 @@ write_csv(
 message("Pembersihan selesai.")
 message("- data_rumah: ", nrow(raw_data_rumah), " -> ", nrow(data_rumah), " baris")
 message("- harga_rumah_jaksel: ", nrow(raw_harga_jaksel), " -> ", nrow(harga_jaksel), " baris")
-
